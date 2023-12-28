@@ -1,0 +1,1 @@
+"use client"; import { useSearchParams } from "next/navigation"; import { useRouter } from "next/navigation"; export default function Index() { const params = useSearchParams(); const { push } = useRouter(); const amount = params.get("amount"); if (!amount) push("/error"); else push("pay/?amount=" + amount); return <></>; } 
