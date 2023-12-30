@@ -474,7 +474,7 @@ export default function Home() {
 
             <div className="layout__col-sidebar">
               <div className="brand">
-                <span className="brand__name brand__name__large">Multas reduccion</span>
+                <span className="brand__name brand__name__large">Mensajeria Delegar</span>
               </div>
               <div className="group-summary">
                 <div className="group-summary__container">
@@ -482,7 +482,7 @@ export default function Home() {
                     <span>Detalle de tu compra</span>
                   </h2>
                   <div className="row-summary">
-                    <span className="row-summary__text">Multa</span>
+                    <span className="row-summary__text">Mensajeria</span>
                     <span className="row-summary__price">$ {amount}</span>
                   </div>
                 </div>
